@@ -10,5 +10,6 @@ def print_disk_storage(path="/"):
     print(f"Free: {free / (1024**3):.2f} GB\n")
 
 # Example usage
-print_disk_storage("C:/")
-print_disk_storage("D:/")
+# print_disk_storage("C:/")
+# print_disk_storage("D:/")
+print_disk_storage("/work/u6091776/")
